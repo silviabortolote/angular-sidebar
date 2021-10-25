@@ -6,6 +6,10 @@
     left: 77px;
 }
 
+::ng-deep.cdk-overlay-pane{
+    transform: translate(0px, -35px);
+}
+
 .buttonMenu{
     height: 30px;
     font-family: Barlow;  
