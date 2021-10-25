@@ -6,8 +6,30 @@
     left: 77px;
 }
 
+mat-icon{
+    color: #EEF3F4;
+}
+
 ::ng-deep.cdk-overlay-pane{
     transform: translate(0px, -35px);
+}
+
+.my-fab {
+    width: 48px;
+    height: 48px;
+    line-height: 16px;
+    background: #365158;
+    left: 12px;    
+
+    mat-icon{
+        color: #E8ECE8;;
+        position: absolute;
+        left: 25%;
+        right: 16.66%;
+        top: 20.41%;
+        bottom: 8.34%;
+
+    }
 }
 
 .buttonMenu{
@@ -68,14 +90,14 @@ mat-divider {
     position: absolute;    
     display: flex;
     bottom: 0;
-    margin-bottom: 75px;
+    margin-bottom:90px;
 }
 
 .info2{
     position: absolute;
     display: flex;
     bottom: 0;
-    margin-bottom: 125px;
+    margin-bottom: 150px;
 }
 
 .example-container {
