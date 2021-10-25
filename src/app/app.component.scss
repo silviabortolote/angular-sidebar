@@ -1,12 +1,13 @@
 ::ng-deep .customize {
     background: #4D666A;
     box-shadow: 4px 4px 22px rgba(52, 70, 106, 0.2);
-    border-radius: 50px;
+    border-radius: 4px;
     position: relative;
     left: 77px;
 }
 
 .buttonMenu{
+    height: 30px;
     font-family: Barlow;  
     font-size: 12px;
     line-height: 5px; 
@@ -14,6 +15,10 @@
 }
 
 .aSubMenu{
+    margin-left: 15px;
+    height: 30px;
+    font-family: Barlow;
+    font-style: normal;
     font-size: 10px;
     color: #C3C8C3;
 }
