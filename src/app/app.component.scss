@@ -1,3 +1,23 @@
+::ng-deep .customize {
+    background: #4D666A;
+    box-shadow: 4px 4px 22px rgba(52, 70, 106, 0.2);
+    border-radius: 50px;
+    position: relative;
+    left: 77px;
+}
+
+.buttonMenu{
+    font-family: Barlow;  
+    font-size: 12px;
+    line-height: 5px; 
+    color: #F8F8F8;
+}
+
+.aSubMenu{
+    font-size: 10px;
+    color: #C3C8C3;
+}
+
 mat-sidenav-container{
     width: 72px;
     height: 100%;
@@ -48,3 +68,15 @@ mat-divider {
     bottom: 0;
     margin-bottom: 125px;
 }
+
+.example-container {
+    height: 100%;
+  }
+
+  mat-drawer{
+    width: 72px;
+  }
+
+  .matMenu{
+      position: inherit;
+  }
