@@ -19,17 +19,21 @@ mat-icon{
     height: 48px;
     line-height: 16px;
     background: #365158;
-    left: 12px;    
+    left: 12px;
 
     mat-icon{
-        color: #E8ECE8;;
+        color: #E8ECE8;
         position: absolute;
         left: 25%;
         right: 16.66%;
-        top: 20.41%;
-        bottom: 8.34%;
-
+        top: 25%;
+        bottom: 8.34%;     
     }
+
+    .sun{
+        color:  #FFE966;
+    }
+    
 }
 
 .buttonMenu{
